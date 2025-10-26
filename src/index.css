@@ -1,0 +1,16 @@
+:root{
+  --bg: #0f172a;
+  --text: #e2e8f0;
+}
+html,body,#root{height:100%;}
+body{
+  margin:0;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+  background: var(--bg);
+  color: var(--text);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+.app-root{text-align:center;padding:2rem}
+h1{font-size:2rem;margin:0 0 1rem}
